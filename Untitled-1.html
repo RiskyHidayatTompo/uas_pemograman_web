@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemrograman Web 1 dan Internet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pemrograman Web 1 dan Internet</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#profile" class="active">Profile</a></li>
+                    <li><a href="#form">Form</a></li>
+                    <li><a href="#table">Table</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+            <div class="breadcrumb">
+                <a href="#home">Home</a> / <a href="#profile">Profile</a>
+            </div>
+            <h1>SELAMAT DATANG</h1>
+            <p>
+                Pernyataan: saya mengerjakan project ini sendiri
+                
+                dengan tidak copy- paste dari teman apalagi plagiat</p>
+        </section>
+        <section id="profile">
+            <section class="profile">
+                <h2>Profile</h2>
+                <div class="profile-details">
+                    <div class="detail-row">
+                        <span class="label">NPM</span>
+                        <span class="value">23641014</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Nama</span>
+                        <span class="value">Risky Hidayat Tompo</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Jenis Kelamin</span>
+                        <span class="value">Laki-laki</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Program Studi</span>
+                        <span class="value">Informatika</span>
+                    </div>
+                </div>
+            </section>
+        </section>
+            <section id="form">
+                <section class="form-section">
+                    <h2>Form</h2>
+                    <div class="form-container">
+                        <form action="#">
+                            <div class="form-row">
+                                <label for="nim" class="form-label">NIM</label>
+                                <input type="text" id="nim" name="nim" class="form-input" placeholder="NIM">
+                            </div>
+                            <div class="form-row">
+                                <label for="nama" class="form-label">Nama</label>
+                                <input type="text" id="nama" name="nama" class="form-input" placeholder="Nama">
+                            </div>
+                            <div class="form-row">
+                                <label for="jenis-kelamin" class="form-label">Jenis Kelamin</label>
+                                <select id="jenis-kelamin" name="jenis-kelamin" class="form-input">
+                                    <option value="" disabled selected>-Pilih-</option>
+                                    <option value="Laki-laki">Laki-laki</option>
+                                    <option value="Perempuan">Perempuan</option>
+                                </select>
+                            </div>
+                            <div class="form-row">
+                                <label for="program-studi" class="form-label">Program Studi</label>
+                                <select id="program-studi" name="program-studi" class="form-input">
+                                    <option value="" disabled selected>-Pilih-</option>
+                                    <option value="Teknik Informatika">Teknik Informatika</option>
+                                    <option value="Sistem Informasi">Sistem Informasi</option>
+                                </select>
+                            </div>
+                            <div class="form-row">
+                                <button type="submit" class="form-button">Click</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                </section>
+            </section>
+            <section id="table">
+                <h2>Table</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>NIM</th>
+                            <th>Nama</th>
+                            <th>Jenis Kelamin</th>
+                            <th>Program Studi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>23641009</td>
+                            <td>Wikhan</td>
+                            <td>Laki-laki</td>
+                            <td><a href="#" class="blue-link">Informatika</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>23641014</td>
+                            <td>Risky</td>
+                            <td>Laki-laki</td>
+                            <td><a href="#" class="blue-link">Informatika</a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>23641020</td>
+                            <td>Ratu</td>
+                            <td>Perempuan</td>
+                            <td><a href="#" class="blue-link">Informatika</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
